@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .ul1{
     list-style-type: none;
@@ -13,6 +14,7 @@ body{
     position: fixed;
     display: flex;
     justify-content: center;
+    z-index: 100;
 }
 .li1{
     float: left;
@@ -57,7 +59,7 @@ p{
     border-radius: 20px;
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left: 46%;
 }
 .a2:hover{
     background-color: #0071e3;
@@ -65,8 +67,9 @@ p{
 }
 .img1{
     left: 50%;
-    margin-left:460px;
-    margin-top: 50px;
+    margin-left:0px;
+    margin-top: 0px;
+    width: 100%;
 }
 .div3{
     margin-top: 13px;
@@ -84,7 +87,7 @@ p{
     margin-top: 50px;
 }
 .a3{
-    font-size: 17px;
+    font-size: 15px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -100,8 +103,42 @@ p{
     background-color: #0071e3;
     color: white;
 }
+.a7{
+    font-size: 15px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 19px;
+    border-style: solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    border-width: 1px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 35%;
+}
+.a7:hover{
+    background-color: #0071e3;
+    color: white;
+}
+.a8{
+    font-size: 15px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 19px;
+    border-style: solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    border-width: 1px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 42%;
+}
+.a8:hover{
+    background-color: #0071e3;
+    color: white;
+}
 .a4{
-    font-size: 17px;
+    font-size: 15px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -134,15 +171,36 @@ p{
     width: 100%;
     bottom: 10px;
 }
-.div5{
-    margin-left: 10px;
+.div5,.div8{
+    margin-left: 8px;
     margin-top: 19px;
     background-color:#000000;
     width: 49%;
-    height: 610px;
+    height: 590px;
+    margin-bottom: 40px;
+}
+.div9{
+    margin-left: 8px;
+    margin-top: 19px;
+    background-image: url();
+    width: 49%;
+    height: 590px;
+    margin-bottom: 40px;
+}
+.div6,.div7,.div10{
+    margin-left: 8px;
+    margin-top: 19px;
+    background-color:#f3f3f3;
+    width: 49%;
+    height: 590px;
+    margin-bottom: 40px;
 }
 .img6{
     margin-left:230px;
+    margin-top: 50px;
+}
+.img8{
+    margin-left:160px;
     margin-top: 50px;
 }
 .img7{
@@ -151,7 +209,7 @@ p{
     margin-top: 80px;
 }
 .a5{
-    font-size: 17px;
+    font-size: 15px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -167,4 +225,26 @@ p{
 .a5:hover{
     background-color: rgb(60, 139, 192);
     color: white;
+}
+.a6{
+    font-size: 15px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 9px 15px;
+    border-style: solid;
+    border-color: #0071e3;
+    color: rgb(255, 255, 255);
+    background-color:#0071e3;
+    border-width: 1px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 33%;
+}
+.a6:hover{
+    background-color: rgb(60, 139, 192);
+    color: white;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
 }
