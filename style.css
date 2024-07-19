@@ -60,6 +60,7 @@ p{
     position: absolute;
     bottom: 20px;
     left: 46%;
+    text-decoration: none;
 }
 .a2:hover{
     background-color: #0071e3;
@@ -98,6 +99,7 @@ p{
     position: relative;
     top: 20px;
     left: 44%;
+    text-decoration: none;
 }
 .a3:hover{
     background-color: #0071e3;
@@ -115,6 +117,7 @@ p{
     position: relative;
     top: 20px;
     left: 35%;
+    text-decoration: none;
 }
 .a7:hover{
     background-color: #0071e3;
@@ -132,6 +135,7 @@ p{
     position: relative;
     top: 20px;
     left: 42%;
+    text-decoration: none;
 }
 .a8:hover{
     background-color: #0071e3;
@@ -149,6 +153,7 @@ p{
     position: relative;
     top: 20px;
     left: 39%;
+    text-decoration: none;
 }
 .a10:hover{
     background-color: #313335;
@@ -167,6 +172,7 @@ p{
     position: relative;
     top: 20px;
     left: 43%;
+    text-decoration: none;
 }
 .a4:hover{
     background-color: rgb(60, 139, 192);
@@ -188,45 +194,50 @@ p{
     width: 100%;
     bottom: 10px;
 }
-.div5,.div8{
-    margin-left: 8px;
-    margin-top: 15px;
+.div5{
+    /* margin-left: 8px; */
+    /* margin-top: 15px; */
     background-color:#000000;
-    width: 49%;
+    width: 50%;
     height: 610px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+}
+.div8{
+    background-color:#000000;
+    width: 50%;
+    height: 610px;
 }
 .div9{
-    margin-left: 8px;
-    margin-top: 20px;
+    /* margin-left: 8px; */
+    /* margin-top: 20px; */
     background-color: #b8ebf1;
-    width: 49%;
+    width: 50%;
     height: 610px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .div6{
-    margin-left: 8px;
-    margin-top: 15px;
+    /* margin-left: 8px;
+    margin-top: 15px; */
     background-color:#f3f3f3;
-    width: 49%;
+    width: 50%;
     height: 600px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .div7{
-    margin-left: 8px;
-    margin-top: 13px;
+    /* margin-left: 8px;
+    margin-top: 13px; */
     background-color:#f3f3f3;
-    width: 49%;
-    height: 610px;
-    margin-bottom: 40px;
+    width: 50%;
+    height: 600px;
+    /* margin-bottom: 40px; */
 }
 .div10{
-    margin-left: 8px;
-    margin-top: 19px;
+    /* margin-left: 8px;
+    margin-top: 19px; */
     background-color:#f7f6f6;
-    width: 49%;
+    width: 50%;
     height: 610px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .img6{
     margin-left:230px;
@@ -258,6 +269,7 @@ p{
     position: relative;
     top: 20px;
     left: 40%;
+    text-decoration: none;
 }
 .a5:hover{
     background-color: rgb(60, 139, 192);
@@ -276,6 +288,7 @@ p{
     position: relative;
     top: 20px;
     left: 38%;
+    text-decoration: none;
 }
 .a9:hover{
     background-color: rgb(87, 92, 95);
@@ -294,6 +307,7 @@ p{
     position: relative;
     top: 20px;
     left: 33%;
+    text-decoration: none;
 }
 .a6:hover{
     background-color: rgb(60, 139, 192);
@@ -302,8 +316,12 @@ p{
 .main{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 .video{
+    padding-top: 35px;
     width: 100%;
     height: 150px;
 }
@@ -371,19 +389,43 @@ p{
     border-bottom: 1px solid black;
 }
 .customercare{
-    width: 70%;
+    width: 24%;
     font-size: smaller;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 15%;
-    padding-top: 10px;
+    padding-top: 15px;
+    /* background-color: #000000; */
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.endlink{
+    width: 46%;
+    /* background-color: red; */
 }
 .a11:link{
     text-decoration: underline;
-    color: rgb(46, 126, 190);
+    color:#303233;
 }
 .a11:hover{
-    color: #0071e3;
+    color:#303233;
 }
 .li2{
     float: left;
+    padding-left: 10px;
+}
+.a13{
+    text-decoration: none;
+    color: #303233;
+}
+.a13:hover{
+    text-decoration: underline;
+    color: #303233;
+}
+.ul2{
+    list-style-type: none;
+    font-size: smaller;
+    padding-left: 10px;
 }
