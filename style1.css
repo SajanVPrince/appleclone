@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #252525e0;
+    padding:13px 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    backdrop-filter: blur(2px);
+}
+.nav li{
+    padding-left: 25px;
+    margin-left: 20px;
+}
+.nav a{
+    float: left;
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+    font-size: smaller;
+    display: block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover{
+    color: rgb(255, 253, 253);
+}
+@media screen and (max-width:390px) {
+    .ul1{float: none;
+    width: 100%;}
+}

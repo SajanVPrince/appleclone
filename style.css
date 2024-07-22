@@ -25,6 +25,7 @@ body{
     text-decoration: none;
     color: rgb(179, 176, 176);
     font-size: smaller;
+    display: block;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a:hover{
@@ -46,7 +47,7 @@ p{
 .div2{
     background-color:#f3f3f3;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
 }
 .a2{
     font-size: 17px;
@@ -71,10 +72,10 @@ p{
     position: relative;
 }
 .div3{
-    margin-top: 13px;
+    /* margin-top: 13px; */
     background-color:#f3f3f3;
     width: 100%;
-    height: 590px;
+    /* height: 590px; */
     position: relative;
 }
 .img2{
@@ -97,7 +98,7 @@ p{
     border-width: 1px;
     border-radius: 20px;
     position: relative;
-    top: 20px;
+    bottom: 420px;
     left: 44%;
     text-decoration: none;
 }
@@ -170,7 +171,7 @@ p{
     border-width: 1px;
     border-radius: 20px;
     position: relative;
-    top: 20px;
+    bottom: 420px;
     left: 43%;
     text-decoration: none;
 }
@@ -179,10 +180,10 @@ p{
     color: white;
 }
 .div4{
-    margin-top: 11px;
+    /* margin-top: 11px; */
     background-color:#000000;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     position: relative;
 }
 .img4{
@@ -191,7 +192,6 @@ p{
     position: relative;
 }
 .img5{
-    margin-top: 150px;
     width: 100%;
     bottom: 10px;
     position: relative;
@@ -419,4 +419,7 @@ p{
     font-size: smaller;
     padding-left: 10px;
     position: relative;
+}
+@media screen and (max-width:390px){
+    .main{flex-direction: column;}
 }
