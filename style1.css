@@ -1,9 +1,10 @@
 body{
     margin:0;
 }
+/* Navigation bar  */
 .nav ul{
     list-style-type: none;
-    overflow: hidden;
+    overflow: none;
     background-color: #252525e0;
     padding:13px 0;
     position: fixed;
@@ -17,11 +18,14 @@ body{
     backdrop-filter: blur(2px);
 }
 .nav li{
-    padding-left: 25px;
+    padding-left: 20px;
     margin-left: 20px;
 }
+* {
+    box-sizing: border-box;
+  }
 .nav a{
-    float: left;
+    float: none;    
     text-decoration: none;
     color: rgb(179, 176, 176);
     font-size: smaller;
@@ -31,7 +35,87 @@ body{
 a:hover{
     color: rgb(255, 253, 253);
 }
-@media screen and (max-width:390px) {
-    .ul1{float: none;
-    width: 100%;}
+
+/* divisions */
+
+.div1{
+    padding-top:46px;
+    text-align: center;
+}
+.div2 img{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.bluebtn{
+    position: absolute;
+    top:250px;
+    left:42%;
+}
+.trabtn{
+    position:absolute;
+    top: 250px;
+    left: 53%;
+}
+
+
+/* A tags */
+
+.a2{
+    font-size: 1.3vw;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0.9vw 1.8vw;
+    border-style: solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    border-width: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.a2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+.a1{
+    font-size: 1.3vw;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0.9vw 1.8vw;
+    border-style: solid;
+    border-color: #0071e3;
+    color: rgb(255, 255, 255);
+    background-color:#0071e3;
+    border-width: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.a1:hover{
+    background-color: rgb(60, 139, 192);
+    color: white;
+}
+
+
+
+
+/* media tag (576px,768px,992px) */
+
+
+
+
+@media screen and (max-width:800px){
+    .nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div1{
+        padding-top:240px;
+        text-align: center;
+    }
+    .bluebtn{
+        margin-top: 220px;
+        top: 210px;
+    }
+    .trabtn{
+        margin-top: 220px;
+        top: 210px;
+    }
 }
