@@ -42,16 +42,14 @@ p{
 }
 .a1{
     color: #0071e3;
-
 }
 .div2{
-    /* background-color:#f3f3f3; */
-    width: 100%;
+    width: 100vw;
     position: relative;
     height: 572px;
 }
 .a2{
-    font-size: 17px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -75,13 +73,13 @@ p{
 .div3{
     /* margin-top: 13px; */
     /* background-color:#f3f3f3; */
-    width: 100%;
+    width: 100vw;
     height: 590px;
     position: relative;
 }
 .img2{
     /* margin-top: 150px; */
-    width: 100%;
+    width: 100vw;
     position: absolute;
 }
 .img3{
@@ -90,7 +88,7 @@ p{
     position: absolute;
 }
 .a3{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -108,7 +106,7 @@ p{
     color: white;
 }
 .a3a{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -126,7 +124,7 @@ p{
     color: white;
 }
 .a7{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -144,7 +142,7 @@ p{
     color: white;
 }
 .a8{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -162,7 +160,7 @@ p{
     color: white;
 }
 .a10{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -180,7 +178,7 @@ p{
     color: white;
 }
 .a4{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -199,7 +197,7 @@ p{
     color: white;
 }
 .a4a{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 19px;
     border-style: solid;
@@ -220,7 +218,7 @@ p{
 .div4{
     /* margin-top: 11px; */
     background-color:#000000;
-    width: 100%;
+    width: 100vw;
     height: 600px;
     position: relative;
 }
@@ -474,5 +472,8 @@ p{
     .div1{
         padding-top:235px;
         text-align: center;
+    }
+    .a4{
+        margin-bottom:px;
     }
 }
