@@ -43,32 +43,81 @@ a:hover{
 .div1{
     padding-top:46px;
     text-align: center;
+    position: relative;
 }
-.div2{
-    height: 520px;
-}
-.div2 img{
-    width: 100vw;
-    height: 520px;
-}
-.div3 img{
-    width: 100%;
-    height: 520px;
+.div2,.div3,.div4{
+    position: relative;
 }
 .bluebtn{
     position: absolute;
-    top:250px;
+    top:160px;
     left:42%;
 }
 .trabtn{
     position:absolute;
-    top: 250px;
+    top: 160px;
     left: 53%;
 }
 .trabtn1{
     position: absolute;
-    top: 1070px;
+    bottom:20px;
     left: 50%;
+}
+.bluebtn2{
+    position: absolute;
+    top:110px;
+    left:19%;
+    padding: 1vw 1.3vw;
+}
+.bluebtn2a{
+    position: absolute;
+    top:110px;
+    left:66%;
+    padding: 1vw 1.3vw;
+}
+.bluebtn2b{
+    position: absolute;
+    top:530px;
+    left:15%;
+    padding: 1vw 1.3vw;
+}
+.bluebtn2c{
+    position: absolute;
+    top:520px;
+    left:69%;
+    padding: 1vw 1.3vw;
+}
+.bluebtn2e{
+    position: absolute;
+    top:950px;
+    left:69%;
+    padding: 1vw 1.3vw;
+}
+.bluebtn2d{
+    position: absolute;
+    top:930px;
+    left:15%;
+    padding: 1vw 1.3vw;
+}
+.trabtn2{
+    position:absolute;
+    top: 530px;
+    left: 26%;
+    padding: 1vw 1.3vw;
+}
+.trabtn2a{
+    position:absolute;
+    top: 930px;
+    left: 26%;
+    padding: 1vw 1.3vw;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.div5,.div6,.div7,.div8,.div9,.div10{
+    width: 50%;
 }
 
 
@@ -125,20 +174,16 @@ a:hover{
         padding-top:240px;
         text-align: center;
     }
-    .div2,.div3{
-        height: 400px;
-    }
-    .div2 img,.div3 img{
-        height: 400px;
-    }
     .bluebtn{
-        margin-top: 180px;
+        top: 50px;
     }
     .trabtn{
-        margin-top: 180px;
-        left: 54%;
+        top:50px
     }
-    .trabtn1{
-        margin-top: -40px;
+    .bluebtn2a{
+        top:30px;
+    }
+    .bluebtn2{
+        top:25px;
     }
 }
