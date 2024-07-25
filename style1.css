@@ -119,7 +119,103 @@ a:hover{
 .div5,.div6,.div7,.div8,.div9,.div10{
     width: 50%;
 }
-
+.details{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    background-color:#ffffff;
+    border-bottom: 1px solid rgb(88, 86, 86);
+    position: relative;
+}
+.p1{
+    font-size: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shortcuts li{
+    margin-top:8px;
+}
+.shortcuts{
+    display: flex;
+    white-space: nowrap;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    font-size: smaller;
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shortcuts div{
+    flex-grow: 1;
+    width: 20%;
+    height: auto;
+}
+.shortcuts h3{
+    font-size: 1vw;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-bottom: .8em;
+    margin-inline-end: 20px;
+    outline: none;
+}
+.shortcuts ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.shortcuts ul li{
+    padding-top: 5px;
+}
+.end{
+    width: 70%;
+    font-size: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15%;
+    padding-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(119, 113, 113);
+}
+.customercare{
+    width: 24%;
+    font-size: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15%;
+    padding-top: 15px;
+    position: relative;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.endlink{
+    width: 46%;
+    position: relative;
+}
+.a11:link{
+    text-decoration: underline;
+    color:#303233;
+}
+.a11:hover{
+    color:#303233;
+}
+.li2{
+    float: left;
+    padding-left: 10px;
+}
+.ul2{
+    list-style-type: none;
+    font-size: 1vw;
+    padding-left: 10px;
+    padding-top: 15px;
+    position: relative;
+}
 
 
 /* A tags */
@@ -156,6 +252,16 @@ a:hover{
     background-color: rgb(60, 139, 192);
     color: white;
 }
+.a13{
+    text-decoration: none;
+    color: #303233;
+    position: relative;
+    font-size:1vw;
+}
+.a13:hover{
+    text-decoration: underline;
+    color: #303233;
+}
 
 
 
@@ -165,25 +271,60 @@ a:hover{
 
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:400px) {
     .nav ul{
         flex-direction: column;
         text-align: center;
     }
     .div1{
-        padding-top:240px;
+        padding-top:290px;
         text-align: center;
     }
     .bluebtn{
-        top: 50px;
+        top: 40px;
+        left: 40%;
     }
     .trabtn{
-        top:50px
+        top:40px
+    }
+    .trabtn1{
+        top:135px;
+        left: 50%;
+    }
+    .trabtn2{
+        top:145px;
+        left:25%
+    }
+    .trabtn2a{
+        top:260px;
+        left:27%
     }
     .bluebtn2a{
-        top:30px;
+        top:20px;
     }
     .bluebtn2{
-        top:25px;
+        top:15px;
+    }
+    .bluebtn2b{
+        top:145px;
+        left: 13%;
+    }
+    .bluebtn2c{
+        top:140px;
+    }
+    .bluebtn2d{
+        top:260px;
+    }
+    .bluebtn2e{
+        top:265px;
+    }
+    .shortcuts{
+        margin: auto;
+        width: 70%;
+        position: relative;
+        text-align: center;
+        font-size: smaller;
+        line-height:1px;
+        font-weight: 200;
     }
 }
