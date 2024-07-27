@@ -213,7 +213,7 @@ a:hover{
     list-style-type: none;
     font-size: 1vw;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 19px;
     position: relative;
 }
 
@@ -271,7 +271,7 @@ a:hover{
 
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:580px) {
     .nav ul{
         flex-direction: column;
         text-align: center;
