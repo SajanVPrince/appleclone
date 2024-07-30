@@ -26,7 +26,7 @@ body{
 * {
     box-sizing: border-box;
   }
-.img-fluid{
+#imgdiv2,#imgdiv3,#imgdiv4{
     width: 100%;
 }
 .nav a{
