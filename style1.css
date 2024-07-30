@@ -46,6 +46,7 @@ a:hover{
     position: relative;
 }
 .div2,.div3,.div4{
+    width: 100%;
     position: relative;
 }
 .bluebtn{
