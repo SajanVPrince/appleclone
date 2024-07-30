@@ -26,6 +26,9 @@ body{
 * {
     box-sizing: border-box;
   }
+.img-fluid{
+    width: 100%;
+}
 .nav a{
     float: none;    
     text-decoration: none;
